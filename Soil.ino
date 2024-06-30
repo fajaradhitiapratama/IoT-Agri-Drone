@@ -196,7 +196,7 @@ void loop() {
       Serial.println("No Data");
     }
 
-    lora_message = "#Sensor_Soil_007#" + lng + "#" + lat + "#" + Nx + "#" + Px + "#" + Kx + "#" + nilaipH + "#" + String(nilaiMo);
+    lora_message = "#Sensor_Soil_004#" + lng + "#" + lat + "#" + Nx + "#" + Px + "#" + Kx + "#" + nilaipH + "#" + String(nilaiMo);
     Serial.print("Sending packet: ");
     Serial.println(lora_message);
 
